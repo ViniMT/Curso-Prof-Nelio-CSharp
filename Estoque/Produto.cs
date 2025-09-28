@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace Course
+namespace POO.Produto
 {
     class Produto
     {
@@ -26,10 +26,10 @@ namespace Course
 
         public override string ToString()
         {
-            return ($"Produto: {Nome}" +
+            return $"Produto: {Nome}" +
             $"\nValor: R$ {Preco.ToString("F2", CultureInfo.InvariantCulture)} " +
             $"\nQuantidade: {Quantidade}" +
-            $"\nQuantidade total no estoque: {ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}");
+            $"\nQuantidade total no estoque: {ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}";
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Globalization; 
-namespace POO
+using System.Globalization;
+namespace POO.Triangulo.Triangulo
 {
     class Program
     {
